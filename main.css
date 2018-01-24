@@ -1,103 +1,80 @@
 html {
+    
     padding: 100px; 
     height: 100%;
-   
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 
-.red {
-    font-size: 20px;
-    color: red;
-    
-}
-
-#Calculator {
-    background-color: rgb(61, 134, 98);
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 260px;
-    height: 400px;
-    border: .5px;
-    border-radius: 6px;
-
-}
 .container {
-    padding-left: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    text-align: center;
+    border: 2px;
+    border-radius: 6px;
+    width: 400px;
+    height: 650px;
     justify-content: center;
-    width: 100px;
-    height: 300px;
-    border: .5px;
+    border-radius: 6px;
+    border: 1px;
+    background-color: #7e737b;
+   
     
 }
 
-#entrybox {
+h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.button {
+    position: relative;
+    width: 65px;
+    height: 50px;
+    border: none;
+    background: none;
+    font-size: 36px;
+    margin: 11px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+    outline: none;
+    background-color: whitesmoke;
+    text-transform: none;
+    overflow: visible;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+.button:active {
+
+    background-color:  #938a82;
+    transform: translateY(4px);
+    
+    border: none;
+}
+
+.display input {
+    position: relative;
+    height: 100px;
+    width: 345px;
+    text-align: right;
+    font-size: 50px;
     padding-right: 0px;
     padding-left: 0px;
-    height: 50px;
-    width: 220px;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid grey;
     border-radius: 10px;
     background-color: whitesmoke;
     text-align: right;
-
+    
+    
 }
 
-h1 {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 10px;
-    padding-bottom: 0px;
-}
-
-p {
-    margin: 10px;
-    display: block;
-    box-sizing: border-box;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#buttons {
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    display: block;
-    width: 220px;
-}
-button {
-    border-radius: 8px;
-    height: 40px;
-    width: 50px;
-    border: none;
-    box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
-    background-color: whitesmoke;
-    text-transform: none;
-    overflow: visible;
-    font: inherit;
-    box-sizing: border-box;
- 
-    }
-
-    #equalButton {
-        position: absolute;
-        margin-left: -100px;
-        margin-top: 0px;
-        height: 40px;
-        width: 105px;
-        c
-    }
-
-    #zeroButton {
-        position: absolute;
-        margin-left: -220px;
-        margin-top: 0px;
-        height: 40px;
-        width: 105px;
-        
-    }
